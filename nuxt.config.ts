@@ -9,5 +9,26 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  app: {
+    head: {
+      title: 'nuxt cli',
+      meta: [
+        {
+          name: 'description',
+          content: 'nuxt cli'
+        },
+        {
+          name: 'keywords',
+          content: 'nuxt cli'
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1'
+        }
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      noscript: [{ children: 'Javascript is required' }]
+    }
   }
 })
