@@ -1,6 +1,10 @@
+import ElementPlus from 'unplugin-element-plus/vite'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ['normalize.css', '@/assets/css/global.scss'],
+  build: {
+    transpile: ['element-plus/es']
+  },
   vite: {
     css: {
       preprocessorOptions: {
@@ -8,7 +12,8 @@ export default defineNuxtConfig({
           additionalData: "@use '@/assets/css/variables.scss' as *;"
         }
       }
-    }
+    },
+    plugins: [ElementPlus()]
   },
   app: {
     head: {

@@ -9,10 +9,12 @@
   },
   "devDependencies": {
     "nuxt": "^3.0.0",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "unplugin-element-plus": "^0.7.0"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
+    "element-plus": "^2.2.32",
     "normalize.css": "^8.0.1",
     "pinia": "^2.0.32"
   }

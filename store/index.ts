@@ -1,10 +1,8 @@
 import { defineStore } from 'pinia'
 
-export const useHomeStore = defineStore('home', {
+export const useSomethingStore = defineStore('something', {
   state: () => {
     return {}
   },
-  actions: {
-    // async fetchHomeInfoData(type:IHomeInfoType) {}
-  }
+  actions: {}
 })
