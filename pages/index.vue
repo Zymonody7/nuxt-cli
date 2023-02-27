@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="bg-black">
+    <div class="bg-black w-5 h-5"></div>
     <ElButton>123</ElButton>
   </div>
 </template>
