@@ -12,6 +12,8 @@
     "sass": "^1.58.3"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "@pinia/nuxt": "^0.4.7",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.32"
   }
 }
