@@ -45,5 +45,5 @@ export default defineNuxtConfig({
       noscript: [{ children: 'Javascript is required' }]
     }
   },
-  modules: ['@pinia/nuxt']
+  modules: ['@pinia/nuxt', '@vueuse/nuxt']
 })

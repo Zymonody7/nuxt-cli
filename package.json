@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
     "echarts": "^5.4.1",
     "element-plus": "^2.2.32",
     "normalize.css": "^8.0.1",
